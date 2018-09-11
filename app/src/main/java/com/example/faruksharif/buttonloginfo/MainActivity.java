@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("Button","Please click me!!!");
         Log.i("Values1",txt1.getText().toString());
         Log.i("Values2",txt2.getText().toString());
+        Toast.makeText(this, "Trying to login....", Toast.LENGTH_SHORT).show();
     }
 
     @Override
